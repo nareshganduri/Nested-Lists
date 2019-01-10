@@ -1,0 +1,9 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["NSG <gandurinaresh@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nested_list = { path = "../nested_list" }
+nested_list_macro = { path = "../nested_list_macro" }

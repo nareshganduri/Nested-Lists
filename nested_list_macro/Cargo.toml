@@ -1,0 +1,9 @@
+[package]
+name = "nested_list_macro"
+version = "0.1.0"
+authors = ["NSG <gandurinaresh@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nested_list_impl = { path = "../nested_list_impl"}
+proc-macro-hack = "0.5.4"
